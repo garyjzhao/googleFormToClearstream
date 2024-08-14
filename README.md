@@ -17,10 +17,13 @@
 1. Upload image to google drive
 2. Grab the file id from the url. For example, `1362JYBa2VyZBfg1oueLGVe_Q0Geb8QjE` is the file id for `https://drive.google.com/file/d/1362JYBa2VyZBfg1oueLGVe_Q0Geb8QjE/view`
 3. Copy and paste file id to `uploadMediaToClearstream.js`
-![SCR-20240814-ncby](https://github.com/user-attachments/assets/99301b50-ea09-4c07-a522-828e8f0d84b3)
-5. Run function and find the media id from the output
-![SCR-20240814-nchs](https://github.com/user-attachments/assets/0ff74e52-08f2-4a48-a8f7-a9bd65014a01)
-7. Copy and paste media id to `sendETicketMessage.js`
+![SCR-20240814-ncby](https://github.com/user-attachments/assets/0f1fbeb4-ca00-48b6-9ee7-7c730fb441d9)
+5. Run function and find the `media id` from the output
+![SCR-20240814-nchs](https://github.com/user-attachments/assets/d8c35c2b-f9ee-4c3b-ad9b-16c9b8d09b91)
+
+7. Copy and paste `media id` to `sendETicketMessage.js`
+![SCR-20240814-ngin](https://github.com/user-attachments/assets/d4b45241-a87b-4b71-8178-28c6ca4c83bc)
+
 
 ## Flowchart (if it helps)
 
@@ -44,3 +47,4 @@ flowchart TD
     f --> z(send e-ticket message)
   end
 ```
+
